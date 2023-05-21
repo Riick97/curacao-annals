@@ -1,0 +1,25 @@
+### Get All Products
+GET http://localhost:3000/api/products HTTP/1.1 
+content-type: application/json
+
+
+### Get By ID
+GET http://localhost:3000/api/products/63644d5123de073b7a71c186 HTTP/1.1 
+content-type: application/json
+
+
+### Create Product
+POST http://localhost:3000/api/products HTTP/1.1 
+content-type: application/json
+
+{
+  "title": "asdf",
+  "price": 134,
+  "category": "cat",
+  "description": "asdf",
+  "metaDataImage": {
+    "name": "Cat03.jpeg",
+    "url": "9816e829-a34e-420d-b35f-995f3f4671d6_Cat03.jpeg"
+  }
+}
+

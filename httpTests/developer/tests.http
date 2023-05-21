@@ -1,0 +1,26 @@
+### Get ExamBundleRequest By UserID Plain 
+GET http://localhost:3000/api/_developer/exambundleRequests/user/545 HTTP/1.1 
+content-type: application/json
+
+
+### Get ExamBundleRequest By id Plain 
+GET http://localhost:3000/api/_developer/exambundleRequests/ HTTP/1.1 
+content-type: application/json
+
+
+
+
+######################
+###### Updating ######
+######################
+
+
+### Update ExamBundleRequest UserID By id
+PUT http://localhost:3000/api/_developer/exambundleRequests/717 HTTP/1.1 
+content-type: application/json
+
+{
+    "userID": 64
+}
+
+

@@ -1,0 +1,12 @@
+### Get All
+GET http://localhost:3000/api/applicants HTTP/1.1 
+content-type: application/json
+
+### Get All Paginated
+GET http://localhost:3000/api/applicants/paginated?search=mon&limit=10&page=1&sortBy=lastName&sortDesc=true HTTP/1.1 
+content-type: application/json
+
+
+
+
+

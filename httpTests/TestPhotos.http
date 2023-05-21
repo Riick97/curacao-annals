@@ -1,0 +1,93 @@
+
+
+##################
+###### ARBO ######
+##################
+
+### Get photosArboLetterComunityKnowledge By ID
+GET http://localhost:3000/api/photos/photosArboLetterComunityKnowledge/5 HTTP/1.1 
+content-type: application/json
+
+### Get photosArboLetterDutch By ID
+GET http://localhost:3000/api/photos/photosArboLetterDutch/5 HTTP/1.1 
+content-type: application/json
+
+### Get photosArboLetterPapiamentu By ID
+GET http://localhost:3000/api/photos/photosArboLetterPapiamentu/5 HTTP/1.1 
+content-type: application/json
+
+##########################
+###### Certificates ######
+##########################
+
+### Get photosCertificateComunityKnowledge By ID
+GET http://localhost:3000/api/photos/photosCertificateComunityKnowledge/5 HTTP/1.1 
+content-type: application/json
+
+### Get photosCertificateDutch By ID
+GET http://localhost:3000/api/photos/photosCertificateDutch/5 HTTP/1.1 
+content-type: application/json
+
+### Get photosCertificatePapiamentu By ID
+GET http://localhost:3000/api/photos/photosCertificatePapiamentu/5 HTTP/1.1 
+content-type: application/json
+
+######################
+###### Diplomas ######
+######################
+
+### Get photosDiplomaComunityKnowledge By ID
+GET http://localhost:3000/api/photos/photosDiplomaComunityKnowledge/5 HTTP/1.1 
+content-type: application/json
+
+
+### Get photosDiplomaDutch By ID
+GET http://localhost:3000/api/photos/photosDiplomaDutch/5 HTTP/1.1 
+content-type: application/json
+
+
+### Get photosDiplomaPapiamentu By ID
+GET http://localhost:3000/api/photos/photosDiplomaPapiamentu/5 HTTP/1.1 
+content-type: application/json
+
+
+#########################
+###### GradesLists ######
+#########################
+
+### Get photosGradesListComunityKnowledge By ID
+GET http://localhost:3000/api/photos/photosGradesListComunityKnowledge/5 HTTP/1.1 
+content-type: application/json
+
+### Get photosGradesListDutch By ID
+GET http://localhost:3000/api/photos/photosGradesListDutch/5 HTTP/1.1 
+content-type: application/json
+
+### Get photosGradesListPapiamentu By ID
+GET http://localhost:3000/api/photos/photosGradesListPapiamentu/5 HTTP/1.1 
+content-type: application/json
+
+
+######################
+###### Personal ######
+######################
+
+### Get photosExamBundleIdentification By ID
+GET http://localhost:3000/api/photos/photosExamBundleIdentification/5 HTTP/1.1 
+content-type: application/json
+
+### Get photosExamBundleCopyClient By ID
+GET http://localhost:3000/api/photos/photosExamBundleCopyClient/5 HTTP/1.1 
+content-type: application/json
+
+### Get photosExamBundlePassport By ID
+GET http://localhost:3000/api/photos/photosExamBundlePassport/5 HTTP/1.1 
+content-type: application/json
+
+### Get photosExamBundleStayPermit By ID
+GET http://localhost:3000/api/photos/photosExamBundleStayPermit/5 HTTP/1.1 
+content-type: application/json
+
+### Get photosPayment By ID
+GET http://localhost:3000/api/photos/photosPayment/5 HTTP/1.1 
+content-type: application/json
